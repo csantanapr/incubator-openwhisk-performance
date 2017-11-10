@@ -8,7 +8,7 @@ sudo -E bash -c 'echo '\''DOCKER_OPTS="-H tcp://0.0.0.0:4243 -H unix:///var/run/
 sudo service docker restart
 
 # checkout openwhisk latest
-git clone --depth 10 --branch perf-nodejs6 https://github.com/csantanapr/incubator-openwhisk.git
+git clone --depth 10 --branch perf-nodejs8-ibm https://github.com/csantanapr/incubator-openwhisk.git
 
 # install ansible
 pip install --user ansible==2.3.0.0
